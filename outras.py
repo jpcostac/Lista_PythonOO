@@ -28,3 +28,8 @@ class Circulo:
         y = float(2* 3.1415 * self.raio)
         self.perimetro = y
         print("{:.2f}".format(self.perimetro))
+
+class Carro:
+    def __init__(self,modelo, preco):
+        self.modelo = modelo
+        self.preco = preco
